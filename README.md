@@ -11,5 +11,5 @@ $ cd ev3rt-hrp3
 ```
 3. パッケージの作成
 ```
-$ docker run -v $PWD:/home/ -i ev3rt:latest bash ./mkpkg.sh 1.1
+$ docker run -v $PWD:/home/ -it ev3rt:latest bash ./mkpkg.sh 1.1
 ```
